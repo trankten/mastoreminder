@@ -1,0 +1,26 @@
+¡Hola {NOMBRE}! ¿Sigues ahí?
+
+¿Te acuerdas de Mastodon? ¡Hace tiempo que no nos vemos!
+Hace un tiempo, un montón de gente vino de Twitter a Mastodon, y eso te incluye.
+
+Con este usuario te registraste, ¿te acuerdas?:
+ >> @{USUARIO} <<<
+
+Te registraste el {FECHA}, concretamente en la instancia (servidor) de TKZ.One, donde tu perfil espera tu regreso. 
+Además, también puedes usar tu cuenta de Mastodon para acceder a las siguientes instancias (servidores):
+
+- [ https://Mast.Lat ] - Inicia sesión aquí con tu cuenta y usa tu perfil para hablar de todo lo que quieras en nuestra instancia generalista.
+- [ https://TKZ.One ] - Es la instancia temática ideal para compartir tus hobbies (Videojuegos, Cine, Música, Literatura, Comics, Deporte, ect...).
+- [ https://MastoRock.com ] - Y este es el primer servidor en español de Mastodon dedicado a la música.
+
+¡Vuelve a compartir con nosotros tus momentos! ¡Te dejamos un video por si no recuerdas que es el Fediverso!
+Puedes verlo aqui: [ https://youtu.be/2TNyd_cHCNQ ]
+
+Vuelve a redescubrir las redes sociales con la comunidad de Mastodon en español, donde encontrarás un ambiente excepcional, libre de toxicidad, y sin ningún tipo de publicidad.
+
+Puedes bajar la aplicación de Mastodon aqui:
+[ Android: https://play.google.com/store/apps/details?id=org.joinmastodon.android ]
+[ iPhone / iOS: https://apps.apple.com/es/app/mastodon/id1571998974 ]
+
+Recuerda que, a la hora de iniciar sesión, el correo electrónico de tu cuenta es este a donde te estamos escribiendo, pero si no recuerdas tu contraseña, puedes usar esta URL para reiniciarla:
+[ https://tkz.one/auth/password/new ]
