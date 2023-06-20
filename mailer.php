@@ -111,7 +111,7 @@ foreach($datos as $usuario) {
             $mail->AltBody = prepara($usuario, file_get_contents("mail.txt"));
             $mail->Body    = prepara($usuario, file_get_contents("mail.html"));
         
-       //     $mail->send();
+            $mail->send();
             echo 'ENVIADO';
         } catch (Exception $e) {
             echo "ERROR: {$mail->ErrorInfo}";
