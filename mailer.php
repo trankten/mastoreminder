@@ -1,7 +1,7 @@
 <?php
 /*
 
-    SCRIPT PCARA ENVIAR REMINDERS A LOS USUARIOS INACTIVOS DE MASTODON.
+    SCRIPT PARA ENVIAR REMINDERS A LOS USUARIOS INACTIVOS DE MASTODON.
                                   By Trankten
                                         https://tkz.one/@trankten
 
@@ -14,6 +14,16 @@ use PHPMailer\PHPMailer\Exception;
 require 'PHPMailer-6.8.0/src/Exception.php';
 require 'PHPMailer-6.8.0/src/PHPMailer.php';
 require 'PHPMailer-6.8.0/src/SMTP.php';
+
+/* Dependencias:
+   php-pgsql https://www.php.net/manual/en/book.pgsql.php
+   
+   - Debian/Ubuntu:
+     apt install php-pgsql
+   - cPanel:
+     yum install php82-php-pgsql
+*/
+
 
 /* MODIFICAR ESTAS VARIABLES A CONTINUACIÓN */
 
@@ -116,7 +126,7 @@ foreach($datos as $usuario) {
         } catch (Exception $e) {
             echo "ERROR: {$mail->ErrorInfo}";
         }
-        break;
+        break; // Comentar este renglón para enviar todos los correos de golpe, recomendado solo si se usa un relay SMTP propio.
     }
     else {
         echo "SKIP";
